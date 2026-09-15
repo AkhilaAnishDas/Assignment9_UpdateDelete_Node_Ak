@@ -586,17 +586,3 @@ This project demonstrates the implementation of REST API operations for updating
 The project includes MongoDB ObjectID validation, user existence checks, appropriate HTTP status codes, database error handling, and API testing using Thunder Client.
 
 The update and delete operations were successfully tested and verified using MongoDB Compass.
-
----
-
-# Author
-
-**Akhila Anish Das**
-
-**Roll No.: 150096725016**
-
-**Cohort:** Larry Page 2025-2029
-
-**Course:** B.Tech CSE
-
-```
