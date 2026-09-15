@@ -1,4 +1,3 @@
-````markdown
 # User Update & Delete API
 
 A REST API project developed using Node.js, Express.js, MongoDB, and Mongoose.  
@@ -8,12 +7,10 @@ This project demonstrates updating and deleting users from a MongoDB database us
 
 ## Student Information
 
-| Detail | Information |
-|---|---|
-| **Student Name** | Akhila Anish Das |
-| **Roll No.** | 150096725016 |
-| **Cohort** | Larry Page 2025-2029 |
-| **Course** | B.Tech CSE |
+**Student Name** | Akhila Anish Das <br>
+**Roll No.** | 150096725016 <br>
+**Cohort** | Larry Page 2025-2029 <br>
+**Course** | B.Tech CSE 
 
 ---
 
@@ -76,7 +73,7 @@ Assignment9_UpdateDelete_Node_AK
 
 ### Project Structure Screenshot
 
-![Project Structure](./screenshots/09-project-structure.png)
+![Project Structure](./ScreeenShotzzz/09-project-structure.png)
 
 ---
 
@@ -238,7 +235,7 @@ The `users` collection contains the user's MongoDB ObjectID along with the user'
 
 ### MongoDB Document Before Update
 
-![MongoDB User Before Update](./screenshots/02-mongodb-user-before.png)
+![MongoDB User Before Update](./ScreeenShotzzz/02-mongodb-user-before.png)
 
 The existing user contains the following information:
 
@@ -274,7 +271,7 @@ In the tested request, the following fields were updated:
 
 ### PATCH Request
 
-![PATCH Request](./screenshots/04-patch-request.png)
+![PATCH Request](./ScreeenShotzzz/04-patch-request.png)
 
 The request was successfully sent to the API with the user's MongoDB ObjectID.
 
@@ -286,7 +283,7 @@ After sending the PATCH request, the server returns a successful response.
 
 ### Successful PATCH Response
 
-![PATCH Success](./screenshots/01-patch-success.png)
+![PATCH Success](./ScreeenShotzzz/01-patch-success.png)
 
 The response shows:
 
@@ -306,7 +303,7 @@ After the successful PATCH request, the user document was checked again in Mongo
 
 ### Updated MongoDB Document
 
-![Updated MongoDB Document](./screenshots/03-mongodb-user-updated.png)
+![Updated MongoDB Document](./ScreeenShotzzz/03-mongodb-user-updated.png)
 
 The updated document shows:
 
@@ -345,7 +342,7 @@ If the user exists, it is deleted from MongoDB.
 
 ### Successful DELETE Response
 
-![DELETE Success](./screenshots/05-delete-success.png)
+![DELETE Success](./ScreeenShotzzz/05-delete-success.png)
 
 The response shows:
 
@@ -367,7 +364,7 @@ The user document is no longer present in the collection.
 
 ### MongoDB Collection After Delete
 
-![Empty MongoDB Collection](./screenshots/06-collection-empty.png)
+![Empty MongoDB Collection](./ScreeenShotzzz/06-collection-empty.png)
 
 The screenshot confirms that the collection contains no remaining document after the deletion.
 
@@ -401,7 +398,7 @@ The API returns:
 
 ### Invalid MongoDB ID Response
 
-![Invalid MongoDB ID](./screenshots/07-invalid-id.png)
+![Invalid MongoDB ID](./ScreeenShotzzz/07-invalid-id.png)
 
 This confirms that invalid MongoDB IDs are handled correctly.
 
@@ -421,7 +418,7 @@ If the provided ID has a valid MongoDB ObjectID format but no matching user exis
 
 ### User Not Found Response
 
-![User Not Found](./screenshots/08-user-not-found.png)
+![User Not Found](./ScreeenShotzzz/08-user-not-found.png)
 
 This confirms that the API correctly handles requests for users that do not exist.
 
